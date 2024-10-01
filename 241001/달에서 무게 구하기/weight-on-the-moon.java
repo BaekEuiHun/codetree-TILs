@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+         // 변수 선언
         int a = 13;
-        String b = String.format("%.3f", 0.165);
-        double result = a * b;
-        System.out.printf(a + " * " + b + " = " + "%.6f", result);
+        double b = 0.165;
+
+        // 출력
+        System.out.printf("%d * %.6f = %.6f", a, b, a * b);
     }
 
 }
